@@ -64,7 +64,7 @@ const Reviews = () => {
       <section className="relative pt-32 pb-20 md:py-40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="img/WhatsApp Image 2025-04-24 at 10.19.29 PM.jpeg" 
+            src="/img/WhatsApp Image 2025-04-24 at 10.19.29 PM.jpeg" 
             alt="Guest Reviews" 
             className="w-full h-full object-cover"
           />

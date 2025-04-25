@@ -6,7 +6,7 @@ export const rooms: Room[] = [
     name: 'Deluxe Room',
     description: 'Spacious and comfortable room with modern amenities perfect for couples or solo travelers.',
     price: 1299,
-    image: 'img/WhatsApp Image 2025-04-24 at 10.19.29 PM (1).jpeg',
+    image: '/img/WhatsApp Image 2025-04-24 at 10.19.29 PM (1).jpeg',
     amenities: ['Air Conditioner', 'LED TV', 'Attached Bathroom', 'Daily Housekeeping', 'Free WiFi']
   },
   {
@@ -14,7 +14,7 @@ export const rooms: Room[] = [
     name: 'Premium Room',
     description: 'Upgraded room with additional space and premium furnishings for a more luxurious stay.',
     price: 1199,
-    image: 'img/standard room.jpeg',
+    image: '/img/standard room.jpeg',
     amenities: ['Air Conditioner', 'LED TV', 'Attached Bathroom', 'Daily Housekeeping', 'Free WiFi']
   },
   {
@@ -22,7 +22,7 @@ export const rooms: Room[] = [
     name: 'Family Suite',
     description: 'Perfect for families, this suite offers separate sleeping and living areas with all modern amenities.',
     price: 1500,
-    image: 'img/WhatsApp Image 2025-04-24 at 10.19.29 PM.jpeg',
+    image: '/img/WhatsApp Image 2025-04-24 at 10.19.29 PM.jpeg',
     amenities: ['Air Conditioner', 'LED TV', 'Attached Bathroom', 'Daily Housekeeping', 'Free WiFi']
   },
   

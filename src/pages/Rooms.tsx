@@ -161,7 +161,7 @@ const Rooms = () => {
                 </li>
                 <li className="flex gap-2">
                   <span className="font-medium">Payment Methods:</span>
-                  <span>Cash, major credit/debit cards, UPI</span>
+                  <span>Cash, UPI</span>
                 </li>
               </ul>
             </div>

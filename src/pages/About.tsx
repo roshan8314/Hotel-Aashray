@@ -7,7 +7,7 @@ const About = () => {
       <section className="relative pt-32 pb-20 md:py-40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="img/about us suraj.jpeg" 
+            src="/img/about us suraj.jpeg" 
             alt="About OYO Aashray" 
             className="w-full h-full object-cover"
           />
@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div>
               <img 
-                src="img/front view 2.png" 
+                src="/img/front view 2.png" 
                 alt="OYO Aashray Hotel Interior" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -97,7 +97,7 @@ const About = () => {
                   <Phone className="h-6 w-6 text-primary-600 shrink-0 mt-1" />
                   <div>
                     <p className="font-medium">Phone:</p>
-                    <a href="tel:+919876543210" className="text-neutral-700 hover:text-primary-600 transition-colors">
+                    <a href="tel:+7488173091" className="text-neutral-700 hover:text-primary-600 transition-colors">
                       +91 7488173091
                     </a>
                   </div>
@@ -106,7 +106,7 @@ const About = () => {
                   <Mail className="h-6 w-6 text-primary-600 shrink-0 mt-1" />
                   <div>
                     <p className="font-medium">Email:</p>
-                    <a href="mailto:info@oyoaashray.com" className="text-neutral-700 hover:text-primary-600 transition-colors">
+                    <a href="mailto:aashrayinn@gmail.com" className="text-neutral-700 hover:text-primary-600 transition-colors">
                     aashrayinn@gmail.com
                     </a>
                   </div>
