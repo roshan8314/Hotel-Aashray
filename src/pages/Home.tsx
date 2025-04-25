@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Wifi, Clock, Car, Zap, UtensilsCrossed, Coffee } from 'lucide-react';
+import { Wifi, Clock, Car, Zap, UtensilsCrossed, AirVent } from 'lucide-react';
 import FeatureCard from '../components/FeatureCard';
 import { rooms } from '../data/rooms';
 import RoomCard from '../components/RoomCard';
@@ -19,7 +19,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/img/frot view.jpg" 
+            src="/img/frot view.jpg"
             alt="OYO Aashray Hotel" 
             className="w-full h-full object-cover"
           />
@@ -35,7 +35,7 @@ const Home = () => {
               Experience the perfect blend of comfort, convenience, and affordability at OYO Aashray, Jharkhand's premier budget-friendly accommodation.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="https://www.oyorooms.com/296408/?checkin=24%2F04%2F2025&checkout=25%2F04%2F2025&rooms=1&guests=1&rooms_config=1-1_0&selected_rcid=1" className="btn btn-primary">
+              <Link to="/rooms" className="btn btn-primary">
                 Book Your Stay
               </Link>
               <Link to="/about" className="btn btn-outline text-white border-white hover:bg-white/10">
@@ -81,9 +81,9 @@ const Home = () => {
               description="Enjoy delicious meals delivered right to your room at your convenience."
             />
             <FeatureCard 
-              icon={Coffee} 
-              title="Complimentary Breakfast" 
-              description="Start your day right with our fresh and delicious breakfast offerings."
+              icon={AirVent} 
+              title="AC Rooms" 
+              description="All rooms equipped with air conditioning for your comfort in any weather."
             />
           </div>
         </div>
@@ -141,7 +141,7 @@ const Home = () => {
             <p className="text-lg text-primary-100 mb-8">
               Experience the perfect blend of comfort, convenience, and affordability at OYO Aashray. Book your stay today!
             </p>
-            <Link to="https://www.oyorooms.com/296408/?checkin=24%2F04%2F2025&checkout=25%2F04%2F2025&rooms=1&guests=1&rooms_config=1-1_0&selected_rcid=1" className="btn btn-secondary">
+            <Link to="/rooms" className="btn btn-secondary">
               Book Now
             </Link>
           </div>
