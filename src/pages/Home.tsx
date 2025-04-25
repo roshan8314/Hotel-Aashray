@@ -19,7 +19,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/img/frot view.png" 
+            src="/img/frot view.jpg" 
             alt="OYO Aashray Hotel" 
             className="w-full h-full object-cover"
           />

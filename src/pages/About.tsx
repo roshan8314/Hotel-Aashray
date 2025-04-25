@@ -7,7 +7,7 @@ const About = () => {
       <section className="relative pt-32 pb-20 md:py-40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/img/about us suraj.jpeg" 
+            src="/img/about us suraj.jpg" 
             alt="About OYO Aashray" 
             className="w-full h-full object-cover"
           />
@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div>
               <img 
-                src="/img/front view 2.png" 
+                src="/img/front view 2.jpg" 
                 alt="OYO Aashray Hotel Interior" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
