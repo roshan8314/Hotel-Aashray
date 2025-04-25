@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_startTransition: true}}>
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

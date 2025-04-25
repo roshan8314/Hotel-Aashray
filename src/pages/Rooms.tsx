@@ -9,7 +9,7 @@ const Rooms = () => {
       <section className="relative pt-32 pb-20 md:py-40">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            src="/img/WhatsApp Image 2025-04-24 at 10.19.29 PM.jpeg" 
             alt="Hotel Rooms" 
             className="w-full h-full object-cover"
           />
